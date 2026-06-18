@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FAFAFA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="IMC Calculateur"
+            android:textColor="#212121"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="32dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="28dp"
+            android:background="#37474F" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.1"
+            android:text="Taille"
+            android:textColor="#9E9E9E"
+            android:textSize="11sp" />
+        <EditText
+            android:id="@+id/etTaille"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_bg"
+            android:hint="Taille en m"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="#212121"
+            android:textColorHint="#BDBDBD"
+            android:textSize="15sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.1"
+            android:text="Poids"
+            android:textColor="#9E9E9E"
+            android:textSize="11sp" />
+        <EditText
+            android:id="@+id/etPoids"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/input_bg"
+            android:hint="Poids en Kg"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:textColor="#212121"
+            android:textColorHint="#BDBDBD"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnIMC"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/btn_primary"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05"
+            android:text="Calculer"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/reponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="IMC Calculateur"
+            android:textColor="#212121"
+            android:textSize="22sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

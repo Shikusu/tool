@@ -1,0 +1,84 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/table_de_multiplication"
+            android:textColor="#212121"
+            android:textSize="22sp" />
+
+        <View
+            android:layout_width="32dp"
+            android:layout_height="1dp"
+            android:layout_marginBottom="28dp"
+            android:background="#37474F" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.1"
+                android:text="@string/table_de"
+                android:textColor="#9E9E9E"
+                android:textSize="11sp" />
+            <EditText
+                android:id="@+id/etTable"
+                android:layout_height="48dp"
+                android:layout_width="match_parent"
+                android:autofillHints="1"
+                android:textColor="@color/black"
+                android:background="@drawable/input_bg"
+                android:hint="@string/_1_9"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:textColorHint="#BDBDBD"
+                android:inputType="number"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTable"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/btn_primary"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05"
+            android:text="@string/afficher"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/reponse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/placeholder"
+            android:textColor="#212121"
+            android:textSize="22sp"
+            android:paddingStart="16dp"
+            android:paddingEnd="10dp"
+            android:lineSpacingMultiplier="1.4"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_bmi"
+        android:title="IMC Calculateur" />
+
+    <item
+        android:id="@+id/nav_currency"
+        android:title="Convertion Monétaire" />
+
+    <item
+        android:id="@+id/nav_multiplication"
+        android:title="Table de Multiplication" />
+
+</menu>
