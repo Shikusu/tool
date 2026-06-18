@@ -7,7 +7,7 @@
 
     <item
         android:id="@+id/nav_currency"
-        android:title="Convertion Monétaire" />
+        android:title="Conversion Monétaire" />
 
     <item
         android:id="@+id/nav_multiplication"
